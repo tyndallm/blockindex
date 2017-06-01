@@ -21,35 +21,40 @@ class App extends Component {
                 name: 'Bitcoin',
                 units: 0.3295,
                 purchase_usd: 300,
-                unit_price_usd: 0 
+                unit_price_usd: 0,
+				weight: 0.3
             },
             {
                 symbol: 'ETH',
                 name: 'Ether',
                 units: 29.49,
                 purchase_usd: 300,
-                unit_price_usd: 0
+                unit_price_usd: 0,
+				weight: 0.3
             },
             {
                 symbol: 'XMR',
                 name: 'Monero',
                 units: 21.15,
                 purchase_usd: 300,
-                unit_price_usd: 0
+                unit_price_usd: 0,
+				weight: 0.3
             },
             {
                 symbol: 'REP',
                 name: 'Augur',
                 units: 11.03,
                 purchase_usd: 50,
-                unit_price_usd: 0
+                unit_price_usd: 0,
+				weight: 0.05
             },
             {
                 symbol: 'DGD',
                 name: 'DigixDAO',
                 units: 5.66,
                 purchase_usd: 50,
-                unit_price_usd: 0
+                unit_price_usd: 0,
+				weight: 0.05
             }
         ];
 
